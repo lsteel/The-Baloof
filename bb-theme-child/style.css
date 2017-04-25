@@ -1,0 +1,45 @@
+/*
+Theme Name: Beaver Builder Child Theme
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: The Beaver Builder Team
+Author URI: http://www.fastlinemedia.com
+template: bb-theme
+*/
+/* Add your custom styles here... */
+.btn.btn-square {
+  border-radius: 0;
+}
+.btn.btn-rounded {
+  border-radius: 4;
+}
+.btn.btn-hollow {
+  background: transparent;
+  border: 3px solid #000;
+  color: #000;
+}
+.btn.btn-hollow:hover {
+  background: #000;
+  color: $fff;
+  transition: all 5s ease;
+}
+.btn.btn-hollow.btn-red {
+  border-color: #dc002a;
+  color: #dc002a;
+}
+.btn.btn-hollow.btn-red:hover {
+  background: #dc002a;
+  color: $fff;
+  transition: all 5s ease;
+}
+.btn.btn-hollow.btn-blue {
+  border-color: #428bca;
+  color: #428bca;
+}
+.btn.btn-hollow.btn-blue:hover {
+  background: #428bca;
+  color: $fff;
+  transition: all 5s ease;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+{
+  "name": "thebaloof",
+  "version": "1.0.0",
+  "description": "Homepage of the Baloof",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsteel/The-Baloof.git"
+  },
+  "author": "Lotion Starlord",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lsteel/The-Baloof/issues"
+  },
+  "homepage": "https://github.com/lsteel/The-Baloof#readme"
+}
