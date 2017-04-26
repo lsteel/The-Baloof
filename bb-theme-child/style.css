@@ -1,5 +1,5 @@
 /*
-Theme Name: Beaver Builder Child Theme
+Theme Name: The Baloof - A Lotion Starlord Website
 Theme URI: http://www.wpbeaverbuilder.com
 Version: 1.0
 Description: An example child theme that can be used as a starting point for custom development.
@@ -8,6 +8,24 @@ Author URI: http://www.fastlinemedia.com
 template: bb-theme
 */
 /* Add your custom styles here... */
+* {
+  position: absolute;
+}
+.position-abs {
+  position: absolute;
+}
+.position-abs.top {
+  top: 0;
+}
+.position-abs.bottom {
+  bottom: 0;
+}
+.position-abs.right {
+  right: 0;
+}
+.position-abs.left {
+  left: 0;
+}
 .btn.btn-square {
   border-radius: 0;
 }
@@ -41,5 +59,8 @@ template: bb-theme
   background: #428bca;
   color: $fff;
   transition: all 5s ease;
+}
+.fl-page-header {
+  padding-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */

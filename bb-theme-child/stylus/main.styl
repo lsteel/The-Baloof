@@ -1,7 +1,7 @@
 // out: ../style.css, sourcemap: true, compress: false
 
 /*!
-Theme Name: Beaver Builder Child Theme
+Theme Name: The Baloof - A Lotion Starlord Website
 Theme URI: http://www.wpbeaverbuilder.com
 Version: 1.0
 Description: An example child theme that can be used as a starting point for custom development.
@@ -16,6 +16,20 @@ $black = #000
 $white = $fff
 $red = #DC002A
 $blue = #428BCA
+
+*
+  position absolute
+
+.position-abs
+  position absolute
+  &.top
+    top 0
+  &.bottom
+    bottom 0
+  &.right
+    right 0
+  &.left
+    left 0
 
 .btn
   &.btn-square
@@ -44,3 +58,6 @@ $blue = #428BCA
         background $blue
         color $white
         transition all 5s ease
+
+.fl-page-header
+  padding-bottom: 20px;
