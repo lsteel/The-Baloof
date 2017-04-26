@@ -9,7 +9,7 @@ template: bb-theme
 */
 /* Add your custom styles here... */
 * {
-  position: absolute;
+  position: relative;
 }
 .position-abs {
   position: absolute;
