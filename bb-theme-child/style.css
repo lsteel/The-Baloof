@@ -60,7 +60,10 @@ template: bb-theme
   color: $fff;
   transition: all 5s ease;
 }
-.fl-page-header {
-  padding-bottom: 20px;
+.fl-page-header .fl-logo-img {
+  margin-bottom: 5px;
+}
+.fl-page-header.fl-shrink-header .fl-logo-img {
+  margin-bottom: 3px;
 }
 /*# sourceMappingURL=style.css.map */
