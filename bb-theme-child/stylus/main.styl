@@ -13,11 +13,12 @@ template: bb-theme
 /* Add your custom styles here... */
 
 $black = #000
-$white = $fff
+$grey = grey
+$white = #fff
 $red = #DC002A
 $blue = #428BCA
 
-*
+footer *
   position relative
 
 .position-abs
@@ -37,30 +38,49 @@ $blue = #428BCA
   &.btn-rounded
     border-radius 4
   &.btn-hollow
+    margin-top 4px
+    margin-bottom 0px
     background transparent
     border 3px solid $black
     color $black
+    -webkit-box-shadow 0px 0px 0px 0px rgba(0,0,0,0)
+    -moz-box-shadow 0px 0px 0px 0px rgba(0,0,0,0)
+    box-shadow 0px 0px 0px 0px rgba(0,0,0,0)
+    transition all .25s ease
     &:hover
+      margin-top 0px
+      margin-bottom 4px
       background $black
       color $white
-      transition all 5s ease
+      -webkit-box-shadow 0px 11px 12px -8px rgba(0,0,0,0.75)
+      -moz-box-shadow 0px 11px 12px -8px rgba(0,0,0,0.75)
+      box-shadow 0px 11px 12px -8px rgba(0,0,0,0.75)
     &.btn-red
       border-color $red
       color $red
       &:hover
         background $red
         color $white
-        transition all 5s ease
     &.btn-blue
       border-color $blue
       color $blue
       &:hover
         background $blue
         color $white
-        transition all 5s ease
 
 .fl-page-header .fl-logo-img
   margin-bottom 5px
 
 .fl-page-header.fl-shrink-header .fl-logo-img
   margin-bottom 3px
+
+.instagram-background a.fl-button
+  background url('assets/instagram-background.jpg')
+  background-size cover
+  background-position 100% 65%
+  border 0
+  &:hover,&:focus,&:active
+    background url('assets/instagram-background.jpg')
+    background-size cover
+    background-position 100% 65%
+    border 0

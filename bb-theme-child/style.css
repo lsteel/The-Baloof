@@ -8,7 +8,7 @@ Author URI: http://www.fastlinemedia.com
 template: bb-theme
 */
 /* Add your custom styles here... */
-* {
+footer * {
   position: relative;
 }
 .position-abs {
@@ -33,14 +33,24 @@ template: bb-theme
   border-radius: 4;
 }
 .btn.btn-hollow {
+  margin-top: 4px;
+  margin-bottom: 0px;
   background: transparent;
   border: 3px solid #000;
   color: #000;
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+  transition: all 0.25s ease;
 }
 .btn.btn-hollow:hover {
+  margin-top: 0px;
+  margin-bottom: 4px;
   background: #000;
-  color: $fff;
-  transition: all 5s ease;
+  color: #fff;
+  -webkit-box-shadow: 0px 11px 12px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 11px 12px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 11px 12px -8px rgba(0,0,0,0.75);
 }
 .btn.btn-hollow.btn-red {
   border-color: #dc002a;
@@ -48,8 +58,7 @@ template: bb-theme
 }
 .btn.btn-hollow.btn-red:hover {
   background: #dc002a;
-  color: $fff;
-  transition: all 5s ease;
+  color: #fff;
 }
 .btn.btn-hollow.btn-blue {
   border-color: #428bca;
@@ -57,13 +66,26 @@ template: bb-theme
 }
 .btn.btn-hollow.btn-blue:hover {
   background: #428bca;
-  color: $fff;
-  transition: all 5s ease;
+  color: #fff;
 }
 .fl-page-header .fl-logo-img {
   margin-bottom: 5px;
 }
 .fl-page-header.fl-shrink-header .fl-logo-img {
   margin-bottom: 3px;
+}
+.instagram-background a.fl-button {
+  background: url("assets/instagram-background.jpg");
+  background-size: cover;
+  background-position: 100% 65%;
+  border: 0;
+}
+.instagram-background a.fl-button:hover,
+.instagram-background a.fl-button:focus,
+.instagram-background a.fl-button:active {
+  background: url("assets/instagram-background.jpg");
+  background-size: cover;
+  background-position: 100% 65%;
+  border: 0;
 }
 /*# sourceMappingURL=style.css.map */
