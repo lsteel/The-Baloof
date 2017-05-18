@@ -68,11 +68,22 @@ footer * {
   background: #428bca;
   color: #fff;
 }
+.btn.btn-hollow.btn-white {
+  border-color: #fff;
+  color: #fff;
+}
+.btn.btn-hollow.btn-white:hover {
+  background: #fff;
+  color: #000;
+}
 .fl-page-header .fl-logo-img {
   margin-bottom: 5px;
 }
 .fl-page-header.fl-shrink-header .fl-logo-img {
   margin-bottom: 3px;
+}
+.fl-page-nav-wrap {
+  padding-right: 75px;
 }
 .instagram-background a.fl-button {
   background: url("assets/instagram-background.jpg");
